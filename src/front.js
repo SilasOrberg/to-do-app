@@ -10,7 +10,9 @@ const loadFront = () => {
 
 const showForm = () => {
     document.getElementById('new-task').innerHTML = 
-    `<input type="text" id="description-input">`
+    `<input type="text" id="description-input">
+     <button id="add-task-button">Add Task</button>
+     <button id="cancel-add-task-button">Cancel</button>`
 }
 
 export {
